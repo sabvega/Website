@@ -1,0 +1,70 @@
+		/* an em is =16px but changes with font/devices*/
+	body{
+		font-family: "Helvetica Neue";
+		font-weight: 300;
+		letter-spacing: 0.03em;
+		word-spacing: 0.2em;
+		background: url(photo.jpg);
+		background-size: 1400px 800px;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		text-align: center;
+	}
+
+	.header-main{
+		font-family: "Helvetica Neue";
+		font-size: 45px;
+		font-style: bold;
+		text-align: center;
+		color: black;
+		font-weight: 300;
+		text-shadow:4px 6px 2px rgba(0,0,0,.2);
+		
+	}
+	.heading-small{
+		padding: .5em;
+		background-color: #FBFBFB;
+	}
+	.header-image{
+		padding: 2em ;
+		background-color: #FBFBFB;
+		border-top: solid 10px #FBFBFB;
+		border-left: solid 10px #FBFBFB;
+		border-right: solid 10px #FBFBFB;
+		border-bottom: solid 10px #FBFBFB;
+		border-radius: 10px;
+	}
+	.intro-section{
+		font-family: "Helvetica Neue";
+		padding: .2em;
+		background-color:#FBFBFB;
+		color: black;
+		max-width: 38em;
+		margin-left: auto;
+		margin-right: auto;
+		/*only work if you defined width*/
+		margin-top: 2em;
+		text-align: center;
+		border-top: solid 5px #FBFBFB;
+		border-left: solid 5px #FBFBFB;
+		border-right: solid 5px #FBFBFB;
+		border-bottom: solid 5px #FBFBFB;
+		border-radius: 5px;
+	}
+	.footer{
+		font-family: "Helvetica Neue";
+		text-align: center;
+		color: black;
+		margin-left: auto;
+		margin-right: auto;
+		background-color: #FBFBFB;
+		border-top: solid 10px #FBFBFB;
+		border-left: solid 10px #FBFBFB;
+		border-right: solid 10px #FBFBFB;
+		border-bottom: solid 10px #FBFBFB;
+		border-radius: 10px;	
+	}
+	.social, .footer{
+		display:inline-block;
+
+	}
